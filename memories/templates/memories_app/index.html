@@ -1,0 +1,244 @@
+
+<!--Informative box--><!DOCTYPE html>
+{% load staticfiles %}
+
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>Momenta Video Memories</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:100,300,300i,400,700,900">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/fonts.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" id="main-styles-link">
+    <link rel="stylesheet" href="{% static 'css/customcss.css' %}">
+    <!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="cssload-container">
+          <div class="cssload-speeding-wheel"></div>
+        </div>
+        <p>Loading...</p>
+      </div>
+    </div>
+    <div class="page">
+      <!-- Page Header-->
+      <header class="section page-header">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-creative" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="20px" data-xl-stick-up-offset="20px" data-xxl-stick-up-offset="20px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main">
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-panel">
+                  <!-- RD Navbar Toggle-->
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                  <!-- RD Navbar Brand-->
+                  <div class="rd-navbar-brand">
+                    <!--Brand--><a class="brand" href="#"><img class="brand-logo-dark" src="{% static 'images/WingWarpIcon-1024.png' %}" alt="" width="48" height="48"/><img class="brand-logo-light" src="{% static 'images/WingWarpIcon-1024.png' %}" alt="" width="48" height="48"/></a>
+                  </div>
+                </div>
+                <div class="rd-navbar-main-element">
+                  <div class="rd-navbar-nav-wrap">
+                    <!-- RD Navbar Nav-->
+                    <ul class="rd-navbar-nav">
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="#home">Home</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#about">About</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#demo">Demos</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#faq">FAQ</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#contact">Contacts</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="https://apps.apple.com/us/app/wingwarp-momenta/id1450517652">Free Download</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- Swiper-->
+      <section class="section swiper-container swiper-slider swiper-slider-2" id="home" data-loop="false" data-autoplay="50000" data-simulate-touch="false" data-slide-effect="fade">
+        <div class="swiper-wrapper text-lg-left text-center">
+          <div class="swiper-slide" data-slide-bg="{% static 'images/slider-1-1920x900.jpg' %}">
+            <div class="swiper-slide-caption">
+              <div class="container">
+                <div class="row justify-content-lg-center">
+                  <div class="col-12">
+                    <h1 data-caption-animate="fadeInUp" data-caption-delay="100"><span class="d-block font-weight-medium">Momenta Video Memories</span><span class="d-block font-weight-thin">Don't miss any more memories</span></h1><a class="button button-240 button-primary self-center-md" href="https://apps.apple.com/us/app/wingwarp-momenta/id1450517652" data-caption-animate="fadeInUp" data-caption-delay="450">Download Free</a>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row justify-content-lg-start">
+                  <div class="col-8">
+                    <iframe width="720" height="405" src="https://www.youtube.com/embed/yfGo4aiJtTY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    {% comment %} <a class="instagram-item" data-lightgallery="item" href="https://www.youtube.com/embed/yfGo4aiJtTY"><img src="{% static 'images/top_video_pic_with_play_button.png' %}" alt="" width="500" height="300"></a> {% endcomment %}
+                    {% comment %} <a class="instagram-item" data-lightgallery="item" href="{% static 'images/insta-gallery-1-original.jpg' %}"><img src="{% static 'images/insta-gallery-1-72x72.jpg' %}" alt="" width="72" height="72"/></a> {% endcomment %}
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Special Education-->
+      <section class="section context-dark" id="about">
+        <div class="row row-flex no-gutters">
+          <div class="col-md-6 col-lg-3">
+            <div class="blurb-boxed-2">
+              {% comment %} <div class="icon linearicons-book2"></div> {% endcomment %}
+              <img src="{% static 'images/camera-4-48.png' %}" width="50" height="50">
+              <h6 class="title">Easily Capture Video Clips</h6>
+              <p class="exeption">Position your phone and let it run. When something happens that you want to capture, click the highlight button and Momenta creates a clip out of the last 10 seconds of video.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="blurb-boxed-2 blurb-boxed-green">
+              {% comment %} <div class="icon linearicons-sun"></div> {% endcomment %}
+              <img src="{% static 'images/edit-2-48.png' %}" width="50" height="50">
+              <h6 class="title">Quickly Edit Your Clips</h6>
+              <p class="exeption">No need for fancy editing software. Edit the clips on your phone in seconds.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="blurb-boxed-2 blurb-boxed-orange">
+              {% comment %} <div class="icon linearicons-license"></div> {% endcomment %}
+              <img src="{% static 'images/instagram-48.png' %}" width="50" height="50">
+              <h6 class="title">Easily Share Clips with Friends and Social Media</h6>
+              <p class="exeption">It only takes a few clicks to share your clips with friends and on social media.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="blurb-boxed-2 blurb-boxed-red">
+              {% comment %} <div class="icon linearicons-sun"></div> {% endcomment %}
+              <img src="{% static 'images/fullscreen-10-48.png' %}" width="50" height="50">
+              <h6 class="title">Super Wide Angle Video Capture Mode (coming soon)</h6>
+              <p class="exeption">Your kids run around, out of frame, we get it. So get our special holder (available soon) and add a phone to get an extra wide field of capture.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- A Few Words About Us-->
+      <section class="section section-lg bg-gray-light" id="demo">
+        <div class="container">
+          <div class="block-lg text-center">
+            <h2>Demos of the Momenta App</h2>
+            <p>Momenta is both simple to use and powerful. Single camera mode uses one camera. Super Wide Angle Mode uses two cameras placed in a holder that we provide. 
+            We stitch together the videos from both cameras to give an extremely wide angle of view, so you don't miss any of the action.</p>
+          </div>
+          <div class="row row-20 justify-content-center justify-content-lg-between">
+            <div class="col-md-10 col-lg-6 wow fadeIn">
+              <h3>Single Camera Mode<br></h3><iframe width="560" height="315" src="https://www.youtube.com/embed/IB6UeG7QSCY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            {% comment %} <div class="col-md-10 col-lg-6 wow fadeIn"><img class="img-bordered" src="{% static 'images/index-1-2-570x352.jpg' %}" alt="" width="570" height="352"/> {% endcomment %}
+            </div>
+            <div class="col-md-10 col-lg-6 col-xl-5">
+              <h3>Super Wide Angle Mode<br></h3><iframe width="560" height="315" src="https://www.youtube.com/embed/IB6UeG7QSCY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Call to action-->
+      <section class="section section-xs accent-violet-bg">
+        <div class="container">
+          <div class="box-cta">
+            <div class="box-cta-inner">
+              <h3 class="text-white">Download Momenta FREE!</h3>
+            </div>
+            <div class="box-cta-inner"><a class="button button-lg button-primary" href="https://apps.apple.com/us/app/wingwarp-momenta/id1450517652">Download Free</a></div>
+          </div>
+        </div>
+      </section>
+      <!-- Frequently Asked Questions-->
+      <section class="section section-lg" id="faq">
+        <div class="container text-center">
+          <h2>Frequently Asked Questions</h2>
+          <div class="row row-flex row-40 number-counter text-left">
+            <div class="col-sm-12 col-lg-4 wow fadeIn">
+              <div class="text-block-lined">
+                <h5 class="title">How much does it cost?</h5>
+                <p>The Momenta app doesn't cost anything. It's free! If you want the super wide angle capture option, you'll need to buy a special holder, which will be available soon.</p>
+                <h5 class="title">My kids run all over the place. How will I keep them in frame?</h5>
+                <p>Soon we will have the option to capture a very wide angle of action. You'll need to buy a holder from us, and use a friend's phone. We'll stitch together the video from each phone to create the super wide angle video.</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 wow fadeIn">
+              <div class="text-block-lined">
+                <h5 class="title">How do I edit the clips. Is it hard?</h5>
+                <p>There is a clip editor built into the app. It's super easy to use - you don't need to be an expert to use it. You'll be able to edit your clips in seconds.</p>
+                <h5 class="title">What are the advantages of using Momenta?</h5>
+                <p>Typically when you want to capture a moment with video, you have to know that something is about to happen so you can get your phone ready. 
+                But so often you don't know something is about to happen that you may want to get video of. Momenta solves that problem.</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 wow fadeIn">
+              <div class="text-block-lined">
+                <h5 class="title">Why not just use the normal camera app on my phone?</h5>
+                <p>If you use the camera app on your phone and set it to record, you'll end up with a huge video file. Then you'll need to find a video editing tool to create clips.
+                Momenta makes it so much simpler. No huge video files. No complicated video editing software.</p>
+                <h5 class="title">How easy is it to share video clips?</h5>
+                <p>It is super easy! There are two ways to do it. You can invite friends and family into your group. They will then automatically see all the clips you create.
+                You can also share individual clips to friends or family, or onto social media with just a few clicks.</p>
+              </div>
+            </div>
+          </div>
+          <div class="button-wrap-lg"><a class="button button-md button-primary button-long" href="https://apps.apple.com/us/app/wingwarp-momenta/id1450517652">Download Free Now</a></div>
+        </div>
+      </section>
+      <!-- Page Footer-->
+      <footer class="section footer-2" id="contact">
+        <div class="container">
+          <div class="row row-40">
+            <div class="col-md-6 col-lg-3"><a class="footer-logo"><img src="{% static 'images/WingWarpIcon-1024.png' %}" alt="" width="48" height="48"/></a>
+              <p class="mw-230">WingWarp is a video and AI company creating new solutions for video. We are working on reinventing how you capture and share video.</p>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <h5 class="title">Contact Information</h5>
+              <ul class="contact-box">
+                <li>
+                  <div class="unit unit-horizontal unit-spacing-xxs">
+                    <div class="unit-left"><span class="icon mdi mdi-map-marker"></span></div>
+                    <div class="unit-body"><class="veil reveal-lg-inline">San Francisco, CA 94117 USA</a></div>
+                  </div>
+                </li>
+                <li>
+                  <div class="unit unit-horizontal unit-spacing-xxs">
+                    <div class="unit-left"><span class="icon mdi mdi-email"></span></div>
+                    <div class="unit-body"><a href="mailto:#">support@wingwarp.net</a></div>
+                  </div>
+                </li>
+              </ul>
+              <div class="group-md group-middle social-items"><a class="icon icon-md novi-icon mdi mdi-instagram" href="https://www.instagram.com/wingwarp/"></a></div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+            </div>
+            <div class="col-md-6 col-lg-3">
+            </div>
+          </div>
+          <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>WingWarp</span><span>.&nbsp;</span><span>All Rights Reserved</span>. <a href="http://college.wingwarp.tv/terms_of_use.html">Terms of Use</a>  <a href="http://college.wingwarp.tv/privacy_policy.html">Privace Policy</a></p>
+        </div>
+      </footer>
+    </div>
+    <!-- Global Mailform Output-->
+    <div class="snackbars" id="form-output-global"></div>
+    <!-- Javascript-->
+    <script src="{% static 'js/core.min.js' %}"></script>
+    <script src="{% static 'js/script.js' %}"></script>
+    <!-- coded by Houdini-->
+  </body>
+</html>

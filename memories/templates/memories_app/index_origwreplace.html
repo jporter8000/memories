@@ -1,0 +1,744 @@
+
+<!--Informative box--><!DOCTYPE html>
+{% load staticfiles %}
+
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>Home</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:100,300,300i,400,700,900">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/fonts.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" id="main-styles-link">
+    <!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="cssload-container">
+          <div class="cssload-speeding-wheel"></div>
+        </div>
+        <p>Loading...</p>
+      </div>
+    </div>
+    <div class="page">
+      <!-- Page Header-->
+      <header class="section page-header">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-creative" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="20px" data-xl-stick-up-offset="20px" data-xxl-stick-up-offset="20px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main">
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-panel">
+                  <!-- RD Navbar Toggle-->
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                  <!-- RD Navbar Brand-->
+                  <div class="rd-navbar-brand">
+                    <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="{% static 'images/logo-424x107.png' %}" alt="" width="212" height="53"/><img class="brand-logo-light" src="{% static 'images/logo-inverse-123x57.png' %}" alt="" width="61" height="28"/></a>
+                  </div>
+                </div>
+                <div class="rd-navbar-main-element">
+                  <div class="rd-navbar-nav-wrap">
+                    <!-- RD Navbar Nav-->
+                    <ul class="rd-navbar-nav">
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="#home">Home</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#about">About</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#programs">Programs</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#team">Team</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#faq">FAQ</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#pricing">Pricing</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="#contacts">Contacts</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- Swiper-->
+      <section class="section swiper-container swiper-slider swiper-slider-2" id="home" data-loop="true" data-autoplay="50000" data-simulate-touch="false" data-slide-effect="fade">
+        <div class="swiper-wrapper text-lg-left text-center">
+          <div class="swiper-slide" data-slide-bg="{% static 'images/slider-1-1920x900.jpg' %}">
+            <div class="swiper-slide-caption">
+              <div class="container">
+                <div class="row justify-content-lg-center">
+                  <div class="col-12">
+                    <h1 data-caption-animate="fadeInUp" data-caption-delay="100"><span class="d-block font-weight-medium">A Perfect Learning Center</span><span class="d-block font-weight-thin">for Your Kids</span></h1><a class="button button-240 button-primary self-center-md" href="#" data-caption-animate="fadeInUp" data-caption-delay="450">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" data-slide-bg="images/slider-2-1920x900.jpg" style="background-position: 50% 50%">
+            <div class="swiper-slide-caption">
+              <div class="container">
+                <div class="row justify-content-lg-center">
+                  <div class="col-12">
+                    <h1 data-caption-animate="fadeInUp" data-caption-delay="100"><span class="d-block font-weight-medium">Best Teachers</span><span class="d-block font-weight-thin">and Environment</span></h1><a class="button button-240 button-primary self-center-md" href="#" data-caption-animate="fadeInUp" data-caption-delay="450">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" data-slide-bg="images/slider-3-1920x900.jpg" style="background-position: 50% 50%">
+            <div class="swiper-slide-caption">
+              <div class="container">
+                <div class="row justify-content-lg-center">
+                  <div class="col-12">
+                    <h1 data-caption-animate="fadeInUp" data-caption-delay="100"><span class="d-block font-weight-medium">Varied Curriculum for</span><span class="d-block font-weight-thin">Kids and Teens</span></h1><a class="button button-240 button-primary self-center-md" href="#" data-caption-animate="fadeInUp" data-caption-delay="450">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-meta">
+          <ul class="links">
+            <li><a class="icon icon-meta mdi mdi-facebook" href="#"></a></li>
+            <li><a class="icon icon-meta mdi mdi-twitter" href="#"></a></li>
+            <li><a class="icon icon-meta mdi mdi-instagram" href="#"></a></li>
+            <li><a class="icon icon-meta mdi mdi-facebook-messenger" href="#"></a></li>
+          </ul>
+          <!-- Swiper Pagination-->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <!-- Special Education-->
+      <section class="section context-dark">
+        <div class="row row-flex no-gutters">
+          <div class="col-md-6 col-lg-3">
+            <div class="blurb-boxed-2">
+              <div class="icon linearicons-book2"></div>
+              <h6 class="title">Special Education</h6>
+              <p class="exeption">Our Special Education Program offers quality education to children with disabilities and developmental delays.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="blurb-boxed-2 blurb-boxed-green">
+              <div class="icon linearicons-sun"></div>
+              <h6 class="title">Full Day Session</h6>
+              <p class="exeption">At Kinderex, we offer full-day preschool sessions built on a play-based approach for kids ages two to five.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="blurb-boxed-2 blurb-boxed-orange">
+              <div class="icon linearicons-license"></div>
+              <h6 class="title">Qualified Teachers</h6>
+              <p class="exeption">Our team consists of experienced and creative teachers who are dedicated to your kids’ successful education.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="blurb-boxed-2 blurb-boxed-red">
+              <p class="exeption">The Best Preschool</p>
+              <h5 class="title">Providing Quality Education in a Creative Environment</h5><a class="button button-280 button-default-outline" href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- What We Offer-->
+      <section class="section section-lg" id="about">
+        <div class="container">
+          <div class="block-lg text-center">
+            <h2>What We Offer</h2>
+            <p>At our education center, we provide a variety of benefits and advantages for your kids’ successful education, while allowing your kid to stay fully active, creative, and healthy.</p>
+          </div>
+          <div class="row row-30 row-xxl-60">
+            <div class="col-sm-6 col-md-4 wow fadeInLeft">
+              <div class="blurb-image">
+                <div class="icon linearicons-shield"><span class="colored-circle circle-top-left circle-yellow"></span></div>
+                <h6 class="title">Safety First</h6>
+                <p class="exeption">We offer first-class protection and security for your children at Kinderex.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 wow fadeInLeft" data-wow-delay="0.1s">
+              <div class="blurb-image">
+                <div class="icon linearicons-group-work"><span class="colored-circle circle-right-bottom circle-orange"></span></div>
+                <h6 class="title">Small Class Size</h6>
+                <p class="exeption">All classes at our center have up to 6 students regardless of the curriculum.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 wow fadeInLeft" data-wow-delay="0.2s">
+              <div class="blurb-image">
+                <div class="icon linearicons-license2"><span class="colored-circle circle-top-right circle-pink"></span></div>
+                <h6 class="title">Certified Teachers</h6>
+                <p class="exeption">We hire only the most experienced and certified teachers for your children.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 wow fadeInLeft" data-wow-delay="0.1s">
+              <div class="blurb-image">
+                <div class="icon linearicons-baby2"><span class="colored-circle circle-right-bottom circle-orange"></span></div>
+                <h6 class="title">Infant Care</h6>
+                <p class="exeption">Meeting the educational needs of infants through quality infant care.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 wow fadeInLeft" data-wow-delay="0.2s">
+              <div class="blurb-image">
+                <div class="icon linearicons-palette"><span class="colored-circle circle-top-left circle-pink"></span></div>
+                <h6 class="title">Creative Lessons</h6>
+                <p class="exeption">Our curriculum was designed to nurture creativity in all students of Kinderex.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 wow fadeInLeft" data-wow-delay="0.3s">
+              <div class="blurb-image">
+                <div class="icon linearicons-sun"><span class="colored-circle circle-bottom-left circle-yellow"></span></div>
+                <h6 class="title">Happy Environment</h6>
+                <p class="exeption">The best conditions for your child to have the unique learning experience.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- A Few Words About Us-->
+      <section class="section section-lg bg-gray-light">
+        <div class="container">
+          <div class="block-lg text-center">
+            <h2>A Few Words About Us</h2>
+            <p>We are dedicated to providing a wide variety of childcare services to parents and their children, while also increasing the skills and basic knowledge of your children.</p>
+          </div>
+          <div class="row row-20 justify-content-center justify-content-lg-between">
+            <div class="col-md-10 col-lg-6 wow fadeIn"><img class="img-bordered" src="{% static 'images/index-1-2-570x352.jpg' %}" alt="" width="570" height="352"/>
+            </div>
+            <div class="col-md-10 col-lg-6 col-xl-5">
+              <div class="text-block-2">
+                <p>At Kinderex, our mission is to provide excellence in preschool, kindergarten, before and after school programs and summer camp for families living in the greater local area. Here you’ll find exceptional teachers, curriculum and learning environments that encourage children to learn, play, and explore in a safe, healthy, and nurturing environment promoting creative thinking.</p>
+                <div class="progress-linear-wrap">
+                  <!-- Linear progress bar-->
+                  <article class="progress-linear">
+                    <div class="progress-header">
+                      <p>Preschool Education</p><span class="progress-value">75</span>
+                    </div>
+                    <div class="progress-bar-linear-wrap">
+                      <div class="progress-bar-linear"></div>
+                    </div>
+                  </article>
+                  <!-- Linear progress bar-->
+                  <article class="progress-linear">
+                    <div class="progress-header">
+                      <p>Summer Programs</p><span class="progress-value">50</span>
+                    </div>
+                    <div class="progress-bar-linear-wrap">
+                      <div class="progress-bar-linear"></div>
+                    </div>
+                  </article>
+                </div><a class="button button-md button-primary" href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Our Programs-->
+      <section class="section section-lg bg-cover" id="programs" style="background-image: url('images/home-bg-1-1920x770.jpg')">
+        <div class="container">
+          <h2 class="text-center text-white">Our Programs</h2>
+          <div class="row row-20 justify-content-center">
+            <div class="col-md-6 col-lg-4 col-10 col-sm-8 wow fadeInRight">
+              <article class="informative-box-wrap">
+                <div class="informative-box-img"><img src="{% static 'images/box-img-1-370x272.jpg' %}" alt="" width="370" height="272"/>
+                </div>
+                <div class="informative-box-content">
+                  <h6 class="informative-box-title"><a href="#">Arts Programs</a></h6>
+                  <p>These programs provide extensive art experiences and activities for kids and teens.</p>
+                  <div class="informative-box-author offset-top-20">Teacher:<a href="#">Stephen Rose</a></div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4 col-10 col-sm-8 wow fadeInRight" data-wow-delay=".1s">
+              <article class="informative-box-wrap">
+                <div class="informative-box-img"><img src="{% static 'images/box-img-2-370x272.jpg' %}" alt="" width="370" height="272"/>
+                </div>
+                <div class="informative-box-content">
+                  <h6 class="informative-box-title"><a href="#">Foreign Language Programs</a></h6>
+                  <p>The goal of these programs is to prepare your child for better foreign language studying.</p>
+                  <div class="informative-box-author offset-top-20">Teacher:<a href="#">Catherine White</a></div>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4 col-10 col-sm-8 wow fadeInRight" data-wow-delay=".2s">
+              <article class="informative-box-wrap">
+                <div class="informative-box-img"><img src="{% static 'images/box-img-3-370x272.jpg' %}" alt="" width="370" height="272"/>
+                </div>
+                <div class="informative-box-content">
+                  <h6 class="informative-box-title"><a href="#">Sports Programs</a></h6>
+                  <p>Competitive activities and movement classes form the basis of these programs.</p>
+                  <div class="informative-box-author offset-top-20">Teacher:<a href="#">Stephen Rose</a></div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonials-->
+      <section class="section section-lg bg-gray-light">
+        <div class="container text-center">
+          <h2>Testimonials</h2>
+          <!-- Owl Carousel-->
+          <div class="owl-carousel text-left" data-items="1" data-md-items="2" data-dots="true" data-nav="false" data-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="false" data-autoplay="true">
+            <blockquote class="quote quote-boxed">
+              <div class="quote-meta">
+                <ul class="list-icons">
+                  <li>
+                    <div class="icon mdi mdi-star"></div>
+                  </li>
+                  <li>
+                    <div class="icon mdi mdi-star"></div>
+                  </li>
+                  <li>
+                    <div class="icon mdi mdi-star"></div>
+                  </li>
+                  <li>
+                    <div class="icon mdi mdi-star"></div>
+                  </li>
+                  <li>
+                    <div class="icon mdi mdi-star-half"></div>
+                  </li>
+                </ul>
+                <div class="time">2 days ago</div>
+              </div>
+              <q>Words cannot express the thanks that my family has for each and every Kinderex early childhood teacher. Since my son enrolled, he has grown and matured into an amazing, intelligent young man.</q>
+              <div class="quote-author">
+                <div class="author-media"><img src="{% static 'images/user-1-64x64.jpg' %}" alt="" width="64" height="64"/>
+                </div>
+                <div class="author-body">
+                  <div class="author">
+                    <cite>Marie Hanson</cite>
+                  </div>
+                  <div class="position">Client</div>
+                </div>
+              </div>
+            </blockquote>
+            <blockquote class="quote quote-boxed">
+              <div class="quote-meta">
+                <ul class="list-icons">
+                  <li>
+                    <div class="icon mdi mdi-star"></div>
+                  </li>
+                  <li>
+                    <div class="icon mdi mdi-star"></div>
+                  </li>
+                  <li>
+                    <div class="icon mdi mdi-star"></div>
+                  </li>
+                  <li>
+                    <div class="icon mdi mdi-star"></div>
+                  </li>
+                  <li>
+                    <div class="icon mdi mdi-star-half"></div>
+                  </li>
+                </ul>
+                <div class="time">2 days ago</div>
+              </div>
+              <q>I enrolled my son in this nursery center when he was 13 months old. Once we did drop him off the first day, your teachers were there, with tissues in hand, assuring us that our baby would be OK.</q>
+              <div class="quote-author">
+                <div class="author-media"><img src="{% static 'images/user-2-64x64.jpg' %}" alt="" width="64" height="64"/>
+                </div>
+                <div class="author-body">
+                  <div class="author">
+                    <cite>Mildred Bates</cite>
+                  </div>
+                  <div class="position">Client</div>
+                </div>
+              </div>
+            </blockquote>
+            <blockquote class="quote quote-boxed">
+              <div class="quote-meta">
+                <ul class="list-icons">
+                  <li>
+                    <div class="icon mdi mdi-star"></div>
+                  </li>
+                  <li>
+                    <div class="icon mdi mdi-star"></div>
+                  </li>
+                  <li>
+                    <div class="icon mdi mdi-star"></div>
+                  </li>
+                  <li>
+                    <div class="icon mdi mdi-star"></div>
+                  </li>
+                  <li>
+                    <div class="icon mdi mdi-star-half"></div>
+                  </li>
+                </ul>
+                <div class="time">2 days ago</div>
+              </div>
+              <q>As a parent, I entrust my greatest blessing to the staff at Kinderex every day. The teachers and director look at each child as an individual, with their own strengths and needs.</q>
+              <div class="quote-author">
+                <div class="author-media"><img src="{% static 'images/user-3-64x64.jpg' %}" alt="" width="64" height="64"/>
+                </div>
+                <div class="author-body">
+                  <div class="author">
+                    <cite>Marta Stewart</cite>
+                  </div>
+                  <div class="position">Client</div>
+                </div>
+              </div>
+            </blockquote>
+            <blockquote class="quote quote-boxed">
+              <div class="quote-meta">
+                <ul class="list-icons">
+                  <li>
+                    <div class="icon mdi mdi-star"></div>
+                  </li>
+                  <li>
+                    <div class="icon mdi mdi-star"></div>
+                  </li>
+                  <li>
+                    <div class="icon mdi mdi-star"></div>
+                  </li>
+                  <li>
+                    <div class="icon mdi mdi-star"></div>
+                  </li>
+                  <li>
+                    <div class="icon mdi mdi-star-half"></div>
+                  </li>
+                </ul>
+                <div class="time">2 days ago</div>
+              </div>
+              <q>My son started at Kinderex at the beginning of the year. We were all a bit anxious to move him into a new environment, but it was the best decision we have made!</q>
+              <div class="quote-author">
+                <div class="author-media"><img src="{% static 'images/user-4-64x64.jpg' %}" alt="" width="64" height="64"/>
+                </div>
+                <div class="author-body">
+                  <div class="author">
+                    <cite>Sarah Johnson</cite>
+                  </div>
+                  <div class="position">Client</div>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+      <!-- 4 Column Layout-->
+      <section class="section section-lg" id="team">
+        <div class="container text-center">
+          <h2 class="font-weight-light">Our Wonderful Teachers</h2>
+          <!-- Owl Carousel-->
+          <div class="owl-carousel text-left" data-items="1" data-sm-items="2" data-lg-items="3" data-xl-items="4" data-dots="true" data-nav="false" data-stage-padding="15" data-loop="false" data-margin="30" data-mouse-drag="false">
+            <div class="thumbnail-1">
+              <div class="media-wrap"><img src="{% static 'images/team-1-270x270.jpg' %}" alt="" width="270" height="270"/>
+              </div>
+              <div class="title"><a href="#">Samuel Chapman</a></div>
+              <div class="position">Founder, Center Director</div>
+              <p class="exeption">Samuel Chapman is the founder and director of Kinderex who has spent his entire career working in a preschool setting.</p>
+              <div class="group group-middle social-items"><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-facebook" href="#"></a><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-twitter" href="#"></a><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-instagram" href="#"></a><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-facebook-messenger" href="#"></a><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-linkedin" href="#"></a><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-snapchat" href="#"></a></div>
+            </div>
+            <div class="thumbnail-1">
+              <div class="media-wrap"><img src="{% static 'images/team-2-270x270.jpg' %}" alt="" width="270" height="270"/>
+              </div>
+              <div class="title"><a href="#">Stephen Rose</a></div>
+              <div class="position">Lead Teacher</div>
+              <p class="exeption">Stephen began teaching at Kinderex in 2009. His greatest source of professional fulfillment is to see children thrive socially.</p>
+              <div class="group group-middle social-items"><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-facebook" href="#"></a><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-twitter" href="#"></a><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-instagram" href="#"></a><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-facebook-messenger" href="#"></a><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-linkedin" href="#"></a><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-snapchat" href="#"></a></div>
+            </div>
+            <div class="thumbnail-1">
+              <div class="media-wrap"><img src="{% static 'images/team-3-270x270.jpg' %}" alt="" width="270" height="270"/>
+              </div>
+              <div class="title"><a href="#">Catherine White</a></div>
+              <div class="position">Assistant Teacher</div>
+              <p class="exeption">Catherine White is our Assistant Teacher wo joined us a few years ago and received a certificate in Early Childhood Education.</p>
+              <div class="group group-middle social-items"><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-facebook" href="#"></a><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-twitter" href="#"></a><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-instagram" href="#"></a><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-facebook-messenger" href="#"></a><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-linkedin" href="#"></a><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-snapchat" href="#"></a></div>
+            </div>
+            <div class="thumbnail-1">
+              <div class="media-wrap"><img src="{% static 'images/team-4-270x270.jpg' %}" alt="" width="270" height="270"/>
+              </div>
+              <div class="title"><a href="#">Danielle Gray</a></div>
+              <div class="position">Family Support Specialist</div>
+              <p class="exeption">Danielle Gray provides services and programs to enhance the self-sufficiency of families and improves children’s safety.</p>
+              <div class="group group-middle social-items"><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-facebook" href="#"></a><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-twitter" href="#"></a><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-instagram" href="#"></a><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-facebook-messenger" href="#"></a><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-linkedin" href="#"></a><a class="icon icon-md icon-gray-400 novi-icon mdi mdi-snapchat" href="#"></a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Call to action-->
+      <section class="section section-xs accent-violet-bg">
+        <div class="container">
+          <div class="box-cta">
+            <div class="box-cta-inner">
+              <h3 class="text-white">#1 Preschool Education Center</h3>
+            </div>
+            <div class="box-cta-inner"><a class="button button-lg button-primary" href="#">Learn More</a></div>
+          </div>
+        </div>
+      </section>
+      <!-- Frequently Asked Questions-->
+      <section class="section section-lg" id="faq">
+        <div class="container text-center">
+          <h2>Frequently Asked Questions</h2>
+          <div class="row row-flex row-40 number-counter text-left">
+            <div class="col-sm-12 col-lg-4 wow fadeIn">
+              <div class="text-block-lined">
+                <h5 class="title">Do you provide any scripts with your templates?</h5>
+                <p>Our templates do not include any additional scripts. Newsletter subscriptions, search fields, forums, image galleries (in HTML versions of Flash products) are inactive. Basic scripts can be easily added at www.zemez.io If you are not sure that the element you’re interested in is active please contact our Support.</p>
+                <h5 class="title">In what formats are your templates available?</h5>
+                <p>Website templates are available in Photoshop and HTML formats. Fonts are included with the Photoshop file.</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 wow fadeIn">
+              <div class="text-block-lined">
+                <h5 class="title">What payment methods can I use to pay for my order?</h5>
+                <p>We accept Visa, MasterCard, and American Express credit and debit cards for your convenience. Some other payment methods are also available.</p>
+                <h5 class="title">What are the advantages of purchasing a website template?</h5>
+                <p>The major advantage is price: You get a high quality design for just $20-$70. You don’t have to hire a web designer or web design studio. The second advantage is time frame: It usually takes 5-15 days for a good designer to produce a web page of such quality regardless of its purpose.</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 wow fadeIn">
+              <div class="text-block-lined">
+                <h5 class="title">What am I allowed to do with the templates?</h5>
+                <p>You may build a website using the template in any way you like. You may not resell or redistribute templates (like we do); claim intellectual or exclusive ownership to any of our products.</p>
+                <h5 class="title">What do I receive when I order a template from Zemez?</h5>
+                <p>After you complete the payment via our secure form you will receive the instructions for downloading the product. The source files in the download package can vary based on the type of the product you have purchased.</p>
+              </div>
+            </div>
+          </div>
+          <div class="button-wrap-lg"><a class="button button-md button-primary button-long" href="#">View All Asked Questions</a></div>
+        </div>
+      </section>
+      <!-- Latest Blog Posts-->
+      <section class="section section-lg bg-gray-light">
+        <div class="container text-center">
+          <h2>Latest Blog Posts</h2>
+          <div class="row row-flex row-40 justify-content-center number-counter text-left wow fadeInUp">
+            <div class="col-sm-6 col-lg-3">
+              <article class="post-classic-2"><a class="media-wrapper" href="#"><img src="{% static 'images/masonry-blog-1-370x240.jpg' %}" alt="" width="370" height="240"/></a>
+                <div class="post-meta-main">
+                  <div class="post-meta-item">
+                    <ul class="list-tags">
+                      <li><a class="tag" href="#">News</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="post-meta-item">
+                    <div class="post-author"><span>by</span> <a href="#">Martha Ryan</a>
+                    </div>
+                  </div>
+                </div>
+                <h6 class="post-title"><a href="#">How Testing Buoyancy Can Build Babies’ Skills</a></h6>
+                <p class="post-exeption">The sound and sight of water are absolutely fascinating to infants. And for good reason! Water is a completely unique substance in the world, and...</p>
+                <div class="post-date">2 days ago</div>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <article class="post-classic-2"><a class="media-wrapper" href="#"><img src="{% static 'images/masonry-blog-2-370x240.jpg' %}" alt="" width="370" height="240"/></a>
+                <div class="post-meta-main">
+                  <div class="post-meta-item">
+                    <ul class="list-tags">
+                      <li><a class="tag" href="#">News</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="post-meta-item">
+                    <div class="post-author"><span>by</span> <a href="#">Lawrence Kelly</a>
+                    </div>
+                  </div>
+                </div>
+                <h6 class="post-title"><a href="#">Preschool Science Activities Transform Kids into Independent Thinkers</a></h6>
+                <p class="post-exeption">For any parent looking for some home science fun with their little ones, we have put together a wonderful collection of safe, fun, and easy...</p>
+                <div class="post-date">2 days ago</div>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <article class="post-classic-2"><a class="media-wrapper" href="#"><img src="{% static 'images/masonry-blog-3-370x240.jpg' %}" alt="" width="370" height="240"/></a>
+                <div class="post-meta-main">
+                  <div class="post-meta-item">
+                    <ul class="list-tags">
+                      <li><a class="tag" href="#">News</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="post-meta-item">
+                    <div class="post-author"><span>by</span> <a href="#">Theresa Simpson</a>
+                    </div>
+                  </div>
+                </div>
+                <h6 class="post-title"><a href="#">The Road to Positive Parenting</a></h6>
+                <p class="post-exeption">Every parent grapples with this issue. If you have young children, you know how every day can be a struggle if your child doesn’t behave. Even the most...</p>
+                <div class="post-date">2 days ago</div>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <article class="post-classic-2"><a class="media-wrapper" href="#"><img src="{% static 'images/masonry-blog-4-370x240.jpg' %}" alt="" width="370" height="240"/></a>
+                <div class="post-meta-main">
+                  <div class="post-meta-item">
+                    <ul class="list-tags">
+                      <li><a class="tag" href="#">News</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="post-meta-item">
+                    <div class="post-author"><span>by</span> <a href="#">Lawrence Kelly</a>
+                    </div>
+                  </div>
+                </div>
+                <h6 class="post-title"><a href="#">Sensory Counting Games for Kids that Blend Fun and Education</a></h6>
+                <p class="post-exeption">Have you ever wondered why kids—especially the under-five set—tend to touch everything they possibly can, from boxes at the... </p>
+                <div class="post-date">2 days ago</div>
+              </article>
+            </div>
+          </div>
+          <div class="button-wrap-lg"><a class="button button-sm button-primary" href="#">View All Blog Posts</a></div>
+        </div>
+      </section>
+      <!-- Pricing-->
+      <section class="section section-lg" id="pricing">
+        <div class="container text-center">
+          <h2>Pricing</h2>
+          <div class="row no-gutters justify-content-center row-bordered-center">
+            <div class="col-md-4">
+              <div class="price-box-1 price-box-green">
+                <div class="media-wrap"><img src="{% static 'images/pricing-1-132x160.png' %}" alt="" width="132" height="160"/>
+                </div>
+                <div class="title">Infants</div>
+                <p class="exeption">This plan provides a full set of classes for infants, perfectly suited for making the first transition away from home natural and easy for your child.</p>
+                <div class="heading-3 price text-white">$59.00/mo</div><a class="button button-xs button-default-outline" href="#">Sign Up</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="price-box-1 price-box-orange price-box-1-primary">
+                <div class="media-wrap"><img src="{% static 'images/pricing-2-132x160.png' %}" alt="" width="132" height="160"/>
+                </div>
+                <div class="title">Kids</div>
+                <p class="exeption">Our Kids plan is aimed at practicing the skills needed for kindergarten success, like following directions, reading, and writing.</p>
+                <div class="heading-3 price text-white">$99.00/mo</div><a class="button button-xs button-default-outline" href="#">Sign Up</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="price-box-1 price-box-red">
+                <div class="media-wrap"><img src="{% static 'images/pricing-3-132x160.png' %}" alt="" width="132" height="160"/>
+                </div>
+                <div class="title">Early Kindergarten</div>
+                <p class="exeption">This plan is intended for our young 5-year-olds who miss the cut-off date for Kindergarten entrance or for those who need more time to prepare.</p>
+                <div class="heading-3 price text-white">$199.00/mo</div><a class="button button-xs button-default-outline" href="#">Sign Up</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Mailform-->
+      <section class="section section-md bg-gray-light" id="contacts">
+        <div class="container">
+          <div class="row row-50 justify-content-between">
+            <div class="col-md-12 col-lg-4">
+              <h4 class="font-weight-light">Get in Touch</h4>
+              <!-- RD Mailform-->
+              <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+                <div class="form-wrap">
+                  <input class="form-input" id="contact-name" type="text" name="name" data-constraints="@Required">
+                  <label class="form-label" for="contact-name">Name</label>
+                </div>
+                <div class="form-wrap">
+                  <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
+                  <label class="form-label" for="contact-email">E-mail</label>
+                </div>
+                <div class="form-wrap">
+                  <label class="form-label" for="contact-message">Message</label>
+                  <textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
+                </div>
+                <button class="button button-primary" type="submit">Send</button>
+              </form>
+            </div>
+            <div class="col-md-12 col-lg-8">
+              <div class="google-map-container" data-center="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-zoom="5" data-icon="images/gmap_marker.png" data-icon-active="images/gmap_marker_active.png" data-styles="[{&quot;featureType&quot;:&quot;landscape&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:60}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:40},{&quot;visibility&quot;:&quot;on&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;administrative.province&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;},{&quot;lightness&quot;:30}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ef8c25&quot;},{&quot;lightness&quot;:40}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.stroke&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;poi.park&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#b6c54c&quot;},{&quot;lightness&quot;:40},{&quot;saturation&quot;:-40}]},{}]">
+                <div class="google-map"></div>
+                <ul class="google-map-markers">
+                  <li data-location="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-description="9870 St Vincent Place, Glasgow"></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Page Footer-->
+      <footer class="section footer-2">
+        <div class="container">
+          <div class="row row-40">
+            <div class="col-md-6 col-lg-3"><a class="footer-logo" href="index.html"><img src="{% static 'images/logo-inverse-219x69.png' %}" alt="" width="219" height="69"/></a>
+              <p class="mw-230">Kinderex is a creative and progressive education center where young children receive a warm, happy and enriching educational experience. We provide students with the highest quality education.</p>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <h5 class="title">Contact Information</h5>
+              <ul class="contact-box">
+                <li>
+                  <div class="unit unit-horizontal unit-spacing-xxs">
+                    <div class="unit-left"><span class="icon mdi mdi-map-marker"></span></div>
+                    <div class="unit-body"><a href="#">2130 Fulton Street, <br class="veil reveal-lg-inline">San Diego, CA 94117-1080 USA</a></div>
+                  </div>
+                </li>
+                <li>
+                  <div class="unit unit-horizontal unit-spacing-xxs">
+                    <div class="unit-left"><span class="icon mdi mdi-phone"></span></div>
+                    <div class="unit-body">
+                      <ul class="list-phones">
+                        <li><a href="tel:#">1-800-1234-567</a></li>
+                        <li><a href="tel:#">1-800-9876-098</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="unit unit-horizontal unit-spacing-xxs">
+                    <div class="unit-left"><span class="icon mdi mdi-email"></span></div>
+                    <div class="unit-body"><a href="mailto:#">info@demolink.org</a></div>
+                  </div>
+                </li>
+              </ul>
+              <div class="group-md group-middle social-items"><a class="icon icon-md novi-icon mdi mdi-facebook" href="#"></a><a class="icon icon-md novi-icon mdi mdi-twitter" href="#"></a><a class="icon icon-md novi-icon mdi mdi-instagram" href="#"></a><a class="icon icon-md novi-icon mdi mdi-facebook-messenger" href="#"></a><a class="icon icon-md novi-icon mdi mdi-linkedin" href="#"></a><a class="icon icon-md novi-icon mdi mdi-snapchat" href="#"></a></div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <h5 class="title">Gallery</h5>
+              <ul class="instafeed instagram-gallery" data-lightgallery="group">
+                <li><a class="instagram-item" data-lightgallery="item" href="{% static 'images/insta-gallery-1-original.jpg' %}"><img src="{% static 'images/insta-gallery-1-72x72.jpg' %}" alt="" width="72" height="72"/></a>
+                </li>
+                <li><a class="instagram-item" data-lightgallery="item" href="{% static 'images/insta-gallery-2-original.jpg' %}"><img src="{% static 'images/insta-gallery-2-72x72.jpg' %}" alt="" width="72" height="72"/></a>
+                </li>
+                <li><a class="instagram-item" data-lightgallery="item" href="{% static 'images/insta-gallery-3-original.jpg' %}"><img src="{% static 'images/insta-gallery-3-72x72.jpg' %}" alt="" width="72" height="72"/></a>
+                </li>
+                <li><a class="instagram-item" data-lightgallery="item" href="{% static 'images/insta-gallery-4-original.jpg' %}"><img src="{% static 'images/insta-gallery-4-72x72.jpg' %}" alt="" width="72" height="72"/></a>
+                </li>
+                <li><a class="instagram-item" data-lightgallery="item" href="{% static 'images/insta-gallery-5-original.jpg' %}"><img src="{% static 'images/insta-gallery-5-72x72.jpg' %}" alt="" width="72" height="72"/></a>
+                </li>
+                <li><a class="instagram-item" data-lightgallery="item" href="{% static 'images/insta-gallery-6-original.jpg' %}"><img src="{% static 'images/insta-gallery-6-72x72.jpg' %}" alt="" width="72" height="72"/></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <h5 class="title">Newsletter</h5>
+              <p>Keep up with our always upcoming news and updates. Enter your e-mail and subscribe to our newsletter.</p>
+              <!-- RD Mailform-->
+              <form class="rd-form form-sm rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+                <div class="form-wrap">
+                  <input class="form-input" id="newsletter-email" type="email" name="email" data-constraints="@Email @Required">
+                  <label class="form-label" for="newsletter-email">Enter your e-mail</label>
+                </div>
+                <button class="button button-primary" type="submit">Subscribe</button>
+              </form>
+            </div>
+          </div>
+          <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>Kinderex</span><span>.&nbsp;</span><span>All Rights Reserved</span>. Design&nbsp;by&nbsp;<a href="https://zemez.io/">Zemez</a></p>
+        </div>
+      </footer>
+    </div>
+    <!-- Global Mailform Output-->
+    <div class="snackbars" id="form-output-global"></div>
+    <!-- Javascript-->
+    <script src="{% static 'js/core.min.js' %}"></script>
+    <script src="{% static 'js/script.js' %}"></script>
+    <!-- coded by Houdini-->
+  </body>
+</html>
