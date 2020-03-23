@@ -83,10 +83,12 @@
                   </div>
                 </div>
               </div>
-              <div class="container">
+              <div class="container col-lg-7 col-md-12 container-jp1">
                 <div class="row justify-content-lg-start">
-                  <div class="col-8">
-                    <iframe width="720" height="405" src="https://www.youtube.com/embed/yfGo4aiJtTY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="iframe-container">
+                    <iframe src="https://www.youtube.com/embed/yfGo4aiJtTY?modestbranding=1&rel=0" width="560" height="315" frameborder="0"></iframe>
+                    {% comment %} <iframe width="560" height="315" src="https://www.youtube.com/embed/yfGo4aiJtTY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> {% endcomment %}
+                    {% comment %} <iframe width="720" height="405" src="https://www.youtube.com/embed/yfGo4aiJtTY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> {% endcomment %}
                     {% comment %} <a class="instagram-item" data-lightgallery="item" href="https://www.youtube.com/embed/yfGo4aiJtTY"><img src="{% static 'images/top_video_pic_with_play_button.png' %}" alt="" width="500" height="300"></a> {% endcomment %}
                     {% comment %} <a class="instagram-item" data-lightgallery="item" href="{% static 'images/insta-gallery-1-original.jpg' %}"><img src="{% static 'images/insta-gallery-1-72x72.jpg' %}" alt="" width="72" height="72"/></a> {% endcomment %}
                   </div>
@@ -144,11 +146,18 @@
           </div>
           <div class="row row-20 justify-content-center justify-content-lg-between">
             <div class="col-md-10 col-lg-6 wow fadeIn">
-              <h3>Single Camera Mode<br></h3><iframe width="560" height="315" src="https://www.youtube.com/embed/IB6UeG7QSCY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h3>Single Camera Mode<br></h3>
+              <div class="container iframe-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/IB6UeG7QSCY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
             {% comment %} <div class="col-md-10 col-lg-6 wow fadeIn"><img class="img-bordered" src="{% static 'images/index-1-2-570x352.jpg' %}" alt="" width="570" height="352"/> {% endcomment %}
             </div>
-            <div class="col-md-10 col-lg-6 col-xl-5">
-              <h3>Super Wide Angle Mode<br></h3><iframe width="560" height="315" src="https://www.youtube.com/embed/IB6UeG7QSCY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            {% comment %} <div class="col-md-10 col-lg-6 col-xl-5"> {% endcomment %}
+            <div class="col-md-10 col-lg-6">
+              <h3>Super Wide Angle Mode<br></h3>
+              <div class="container iframe-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/IB6UeG7QSCY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
             </div>
           </div>
         </div>
