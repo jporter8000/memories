@@ -27,8 +27,7 @@ SECRET_KEY = '$=rylvk4u-e4r)d8c*924y8fqjbpj2w%-=3fsw)6e&gtebmgme'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['jeffwingwarp.pythonanywhere.com']
 
 # Application definition
 
