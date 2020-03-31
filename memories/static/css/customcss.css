@@ -43,7 +43,7 @@
 	padding: 15px;
 	position: relative;
 }
-input {
+.input {
 	width: 50%;
 	display: block;
 	margin: 15px auto;
