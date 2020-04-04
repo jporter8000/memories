@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from memories_app.forms import PeopleForm
 from django.http import HttpResponse, HttpResponseRedirect
+from django.contrib import messages
 
 # Create your views here.
 
