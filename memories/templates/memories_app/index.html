@@ -19,11 +19,12 @@
     <meta charset="utf-8">
     <link rel="icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
     <!-- Stylesheets-->
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:100,300,300i,400,700,900">
-    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
-    <link rel="stylesheet" href="{% static 'css/fonts.css' %}">
-    <link rel="stylesheet" href="{% static 'css/style.css' %}" id="main-styles-link">
-    <link rel="stylesheet" href="{% static 'css/customcss.css' %}">
+    {% comment %} <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:100,300,300i,400,700,900"> {% endcomment %}
+    {% comment %} <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}"> {% endcomment %}
+    {% comment %} <link rel="stylesheet" href="{% static 'css/fonts.css' %}"> {% endcomment %}
+    {% comment %} <link rel="stylesheet" href="{% static 'css/style.css' %}" id="main-styles-link"> {% endcomment %}
+    {% comment %} <link rel="stylesheet" href="{% static 'css/customcss.css' %}"> {% endcomment %}
+    <link rel="stylesheet" href="{% static 'css/combo.min.css' %}">
     <!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
@@ -73,8 +74,8 @@
                   <!-- RD Navbar Toggle-->
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand">
-                    <!--Brand--><a class="brand" href="#"><img class="brand-logo-dark" src="{% static 'images/WingWarpIcon-1024.png' %}" alt="" width="48" height="48"/><img class="brand-logo-light" src="{% static 'images/WingWarpIcon-1024.png' %}" alt="" width="48" height="48"/></a>
+                  <div class="rd-navbar-brand jp-replace-icon-1">
+                    {% comment %} <!--Brand--><a class="brand" href="#"><img class="brand-logo-dark" src="{% static 'images/WingWarpIcon-48x48.png' %}" alt="" width="48" height="48"/></a> {% endcomment %}
                   </div>
                 </div>
                 <div class="rd-navbar-main-element">
@@ -116,11 +117,9 @@
               </div>
               <div class="container col-lg-7 col-md-12 container-jp1">
                 <div class="row justify-content-lg-start">
-                  <div class="iframe-container">
-                    <iframe src="https://www.youtube.com/embed/IwnsR8EAbKg?modestbranding=1&rel=0" width="560" height="315" frameborder="0"></iframe>
-                    {% comment %} <iframe width="560" height="315" src="https://www.youtube.com/embed/yfGo4aiJtTY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> {% endcomment %}
-                    {% comment %} <iframe width="720" height="405" src="https://www.youtube.com/embed/yfGo4aiJtTY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> {% endcomment %}
-                    {% comment %} <a class="instagram-item" data-lightgallery="item" href="https://www.youtube.com/embed/yfGo4aiJtTY"><img src="{% static 'images/top_video_pic_with_play_button.png' %}" alt="" width="500" height="300"></a> {% endcomment %}
+                  <div class="iframe-container jp-test44">
+                  {% comment %} bingbing {% endcomment %}
+                    {% comment %} <iframe width="560" height="315" src="https://www.youtube.com/embed/IwnsR8EAbKg?modestbranding=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> {% endcomment %}
                     {% comment %} <a class="instagram-item" data-lightgallery="item" href="{% static 'images/insta-gallery-1-original.jpg' %}"><img src="{% static 'images/insta-gallery-1-72x72.jpg' %}" alt="" width="72" height="72"/></a> {% endcomment %}
                   </div>
                 </div>
@@ -181,16 +180,17 @@
           <div class="row row-20 justify-content-center justify-content-lg-between">
             <div class="col-md-10 col-lg-6 wow fadeIn">
               <h3>Single Camera Mode<br></h3>
-              <div class="container iframe-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/JOQrgF52KfI?modestbranding=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="container iframe-container jp-test45">
+              {% comment %} bingbing {% endcomment %}
+                {% comment %} <iframe width="560" height="315" src="https://www.youtube.com/embed/JOQrgF52KfI?modestbranding=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> {% endcomment %}
               </div>
             {% comment %} <div class="col-md-10 col-lg-6 wow fadeIn"><img class="img-bordered" src="{% static 'images/index-1-2-570x352.jpg' %}" alt="" width="570" height="352"/> {% endcomment %}
             </div>
             {% comment %} <div class="col-md-10 col-lg-6 col-xl-5"> {% endcomment %}
             <div class="col-md-10 col-lg-6">
               <h3>Super Wide Angle Mode<br></h3>
-              <div class="container iframe-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/aye2hbx1jNM?modestbranding=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="container iframe-container jp-test46">
+                {% comment %} <iframe width="560" height="315" src="https://www.youtube.com/embed/aye2hbx1jNM?modestbranding=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> {% endcomment %}
               </div>
             </div>
           </div>
@@ -258,7 +258,7 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle"><img src="{% static 'images/WingWarpIcon-1024.png' %}" alt="" width="32" height="32"/>   Momenta Memories is in BETA!</h5>
+              <h5 class="modal-title" id="exampleModalLongTitle"><img src="{% static 'images/WingWarpIcon-48x48.png' %}" alt="" width="32" height="32"/>   Momenta Memories is in BETA!</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -297,7 +297,7 @@
       <footer class="section footer-2" id="contact">
         <div class="container">
           <div class="row row-40">
-            <div class="col-md-6 col-lg-3"><a class="footer-logo"><img src="{% static 'images/WingWarpIcon-1024.png' %}" alt="" width="48" height="48"/></a>
+            <div class="col-md-6 col-lg-3"><a class="footer-logo"><img src="{% static 'images/WingWarpIcon-48x48.png' %}" alt="" width="48" height="48"/></a>
               <p class="mw-230">WingWarp is a video and AI company creating new solutions for video. We are working on reinventing how you capture and share video.</p>
             </div>
             <div class="col-md-6 col-lg-3">
@@ -332,8 +332,9 @@
     <div class="snackbars" id="form-output-global"></div>
     <!-- Javascript-->
     <script src="{% static 'js/core.min.js' %}"></script>
-    <script src="{% static 'js/script.js' %}"></script>
-    <script src="{% static 'js/scriptjp.js' %}"></script>
+    {% comment %} <script src="{% static 'js/script.js' %}"></script> {% endcomment %}
+    {% comment %} <script src="{% static 'js/scriptjp.js' %}"></script> {% endcomment %}
+    <script src="{% static 'js/combo.min.js' %}"></script>
     <!-- coded by Houdini-->
 
   </body>
