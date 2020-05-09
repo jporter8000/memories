@@ -1,11 +1,10 @@
-
 /*!
  * Bootstrap v4.0.0-beta (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
+ :root {
 	--blue: #007bff;
 	--indigo: #6610f2;
 	--purple: #7b59d0;
@@ -7343,6 +7342,9 @@ button.close {
 	visibility: hidden !important;
 }
 
+
+
+/* from fonts.css file -----------------------------------------------------*/
 /*
 *
 * Fonts
@@ -20647,6 +20649,8 @@ button.close {
 	content: "\ece9";
 }
 
+
+/* from style.css */
 @charset "UTF-8";
 /*
 * Trunk version 2.0.0
@@ -33593,16 +33597,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 
+/* from customcss.css file */
+
 
 
 .modal.show .modal-dialog {
 	transform: translate(0, 20%);
 }
-.button-jp-5 {
-	padding: 10px 31px;
-	margin-top: 0px;
-	margin-left: 15px;
-}
+
 
 .modal-footer {
 	display: flex;

@@ -4,7 +4,11 @@
 .modal.show .modal-dialog {
 	transform: translate(0, 20%);
 }
-
+.button-jp-5 {
+	padding: 10px 31px;
+	margin-top: 0px;
+	margin-left: 15px;
+}
 
 .modal-footer {
 	display: flex;
