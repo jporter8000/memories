@@ -5,8 +5,8 @@
 
 
 
-# buttons need to contain classes to trigger GA Events. The classes are:
-# - download-button-1
-# - download-button-2
-# - download-button-3
-# - download-button-nav
+buttons need to contain classes to trigger GA Events. The classes are:
+- download-button-1
+- download-button-2
+- download-button-3
+- download-button-nav
