@@ -1327,7 +1327,8 @@
 
 
 $(window).load(function(){
-    var $div = $('<div/>', {'class': 'iframe-container', html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/IwnsR8EAbKg?modestbranding=1&rel=0" frameborder="0" allow="accelerometer; autoplay=1; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'});
+    var $div = $('<div/>', {'class': 'iframe-container', html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/wCYztUPuB3I?modestbranding=1&rel=0" frameborder="0" allow="accelerometer; autoplay=1; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'});
+    // var $div = $('<div/>', {'class': 'iframe-container', html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/IwnsR8EAbKg?modestbranding=1&rel=0" frameborder="0" allow="accelerometer; autoplay=1; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'});
     $('.jp-test44').replaceWith($div);
   });
 $(window).load(function(){
