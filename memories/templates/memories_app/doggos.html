@@ -1,0 +1,207 @@
+
+<!--Informative box--><!DOCTYPE html>
+{% load static %}
+
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>Home</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Stylesheets-->
+    <!-- there is only one style sheet - it's all in a minified file  -->
+    <!-- <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/fonts.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" id="main-styles-link">
+    <link rel="stylesheet" href="{% static 'css/customcss.css' %}">  -->
+    <link rel="stylesheet" href="{% static 'css/combo.min.css' %}">
+    <!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="cssload-container">
+          <div class="cssload-speeding-wheel"></div>
+        </div>
+        <p>Loading...</p>
+      </div>
+    </div>
+    <div class="page">
+      <!-- Page Header-->
+      <header class="section page-header">
+      </header>
+      <!-- Swiper-->
+      <section class="section swiper-container swiper-slider swiper-slider-2" id="home" data-loop="true" data-autoplay="50000" data-simulate-touch="false" data-slide-effect="fade">
+        <div class="swiper-wrapper text-lg-left text-center">
+          <div class="swiper-slide" data-slide-bg="{% static 'images/backgroundpic-dog-with-hand_cropped_smaller.jpg' %}">
+            <div class="swiper-slide-caption">
+              <div class="container">
+                <div class="row justify-content-lg-center">
+                  <div class="col-12 jplogoarea">
+                    <div class="row">
+                      <img src="{% static 'images/WingWarpLogo.png' %}" height="56" width="56"><h3 class="jph3"> Momenta for Pets</h3>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <h1 data-caption-animate="fadeInUp" data-caption-delay="100"><span class="d-block font-weight-medium jpinfo1"> {{maintitle2}} </span><span class="d-block font-weight-thin jpinfo2"> {{subtitle2}} </span></h1><a href="https://momenta-doggos.onelink.me/EaMH/highlights?pid={{adsource}}&af_ad_type={{admedium}}&c={{adcampaign}}&af_ad={{adcontent}}&af_adset={{adset}}"><img src="{% static 'images/app-store-download.png' %}" width=30% class="jpinfo3"></a>
+                    <!-- <h1 data-caption-animate="fadeInUp" data-caption-delay="100"><span class="d-block font-weight-medium">A Perfect Learning Center</span><span class="d-block font-weight-thin">for Your Kids</span></h1><a class="button button-240 button-primary self-center-md" href="#" data-caption-animate="fadeInUp" data-caption-delay="450">Learn More</a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- What We Offer - V2 Section-->
+      <section class="section context-dark section-lg" id="about">
+        <div class="container">
+          <div class="block-lg text-center">
+            <h3>The easiest way to create, edit, and share video highlights.</h3>
+            <p class="jpsubtitle2">Tap a single button to create a clip.</p>
+          </div>
+          <div class="row row-flex no-gutters">
+            <div class="col-md-6 col-lg-3 jpcol55">
+              <div class="col-3 col-3jp1">
+                <div class="blurb-image jpcollower">
+                  <div><img src="{% static 'images/camera-4-24.png' %}"></div> 
+                  <!-- <div class="icon linearicons-shield"><span class="colored-circle circle-top-left circle-yellow"></span></div> -->
+                  <h6 class="title jpsmalltitle">Easily capture video highlights</h6>
+                  <p class="exeption">Just tap the highlight button and Momenta will create a clip out of the last 10 seconds of video.</p>
+                </div>
+                <div><hr class=jphline></div>
+                <div class="blurb-image jpcollower">
+                  <div><img src="{% static 'images/pencil-24.png' %}"></div> 
+                  <!-- <div class="icon linearicons-group-work"><span class="colored-circle circle-right-bottom circle-orange"></span></div> -->
+                  <h6 class="title jpsmalltitle">Quickly edit your clips</h6>
+                  <p class="exeption">No need for fancy editing software. Edit your clips right on your phone with just a few taps.</p>
+                </div>
+                <div><hr class=jphline></div>
+                <div class="blurb-image jpcollower">
+                  <div><img src="{% static 'images/group-24.png' %}"></div> 
+                  <!-- <div class="icon linearicons-license2"><span class="colored-circle circle-top-right circle-pink"></span></div> -->
+                  <h6 class="title jpsmalltitle">Create teams with family and friends</h6>
+                  <p class="exeption">When you create a highlight, your team will see it. That's it!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-5 jpcol56">
+                <img src="{% static 'images/dog-on-page11.gif' %}" class="jpbigimage">
+            </div>
+            <div class="col-md-6 col-lg-3 jpcol55">
+              <div class="col-3 col-3jp3">
+                <div class="blurb-image jpcollower">
+                  <div><img src="{% static 'images/instagram-24.png' %}"></div> 
+                  <!-- <div class="icon linearicons-baby2"><span class="colored-circle circle-right-bottom circle-orange"></span></div> -->
+                  <h6 class="title jpsmalltitle">Quickly post highlights to social media</h6>
+                  <p class="exeption">Your highlights are perfect for social media. Just tap the share button.</p>
+                </div>
+                <div><hr class=jphline></div>
+                <div class="blurb-image jpcollower">
+                  <div><img src="{% static 'images/filled-filter-24.png' %}"></div> 
+                  <!-- <div class="icon linearicons-palette"><span class="colored-circle circle-top-left circle-pink"></span></div> -->
+                  <h6 class="title jpsmalltitle">Super wide angle video capture mode</h6>
+                  <p class="exeption">Add a second phone and we'll stitch the two phones together to capture the action no matter where it roams. (coming soon)</p>
+                </div>
+                <div><hr class=jphline></div>
+                <div class="blurb-image jpcollower jpsmalltitle">
+                  <div><img src="{% static 'images/cloud-3-24.png' %}"></div> 
+                  <!-- <div class="icon linearicons-sun"><span class="colored-circle circle-bottom-left circle-yellow"></span></div> -->
+                  <h6 class="title jpsmalltitle">Stored in the cloud</h6>
+                  <p class="exeption">Your clips will be on your phone and in the cloud.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Call to action-->
+      <section class="section section-xs accent-violet-bg jpctabackground1">
+        <div class="container">
+          <div class="box-cta">
+            <div class="box-cta-inner">
+              <h3 class="text-white">Get Momenta for Pets FREE!</h3>
+            </div>
+            <!-- <div class="box-cta-inner"><a class="button button-lg button-primary" href="#">Learn More</a></div> -->
+            <div><a href="https://momenta-doggos.onelink.me/EaMH/highlights?pid={{adsource}}&af_ad_type={{admedium}}&c={{adcampaign}}&af_ad={{adcontent}}&af_adset={{adset}}"><img src="{% static 'images/app-store-download.png' %}" class="jpinfo3"></a></div>
+          </div>
+        </div>
+      </section>
+      <!-- Frequently Asked Questions-->
+      <section class="section section-lg" id="faq">
+        <div class="container text-center">
+          <h2>Frequently Asked Questions</h2>
+          <div class="row row-flex row-40 number-counter text-left">
+            <div class="col-sm-12 col-lg-4 wow fadeIn">
+              <div class="text-block-lined">
+                <h5 class="title">How much does it cost?</h5>
+                <p>The Momenta app doesn't cost anything. It's free! If you want the super wide angle capture option, you'll need to buy a special holder, which will be available soon.</p>
+                <h5 class="title">My pets run all over the place. How will I keep them in frame?</h5>
+                <p>Soon we will have the option to capture a very wide angle of action. You'll need to buy a holder from us, and use a second phone. We stitch together the video from both phones to create the super wide angle video.</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 wow fadeIn">
+              <div class="text-block-lined">
+                <h5 class="title">How do I edit the clips. Is it hard?</h5>
+                <p>There is a clip editor built into the app. It's super easy to use - you don't need to be an expert to use it. You'll be able to edit your clips in seconds.</p>
+                <h5 class="title">What are the advantages of using Momenta?</h5>
+                <p>Typically when you want to capture a moment with video, you have to know that something is about to happen so you can get your phone ready. But so often you don't know something is about to happen that you may want to get video of. Momenta solves that problem.</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 wow fadeIn">
+              <div class="text-block-lined">
+                <h5 class="title">Why not just use the normal camera app on my phone?</h5>
+                <p>If you use the camera app on your phone and set it to record, you'll end up with a huge video file. Then you'll need to find a video editing tool to create clips. Momenta makes it so much simpler. No huge video files. No complicated video editing software.</p>
+                <h5 class="title">How easy is it to share video clips?</h5>
+                <p>It's super easy! There are two ways to do it. You can invite friends and family into your group. They will then automatically see all the clips you create. You can also share individual clips with friends or family, or onto social media with just a few clicks.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Page Footer-->
+      <footer class="section footer-2" id="contact">
+        <div class="container">
+          <div class="row row-40">
+            <div class="col-md-6 col-lg-3"><a class="footer-logo"><img src="{% static 'images/WingWarpIcon-48x48.png' %}" alt="" width="48" height="48"/></a>
+              <p class="mw-230">WingWarp is a video and AI company creating new solutions for video. We are working on reinventing how you capture and share video.</p>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <h5 class="title">Contact Information</h5>
+              <ul class="contact-box">
+                <li>
+                  <div class="unit unit-horizontal unit-spacing-xxs">
+                    <div class="unit-left"><span class="icon mdi mdi-map-marker"></span></div>
+                    <div class="unit-body"><class="veil reveal-lg-inline">San Francisco, CA 94117 USA</a></div>
+                  </div>
+                </li>
+                <li>
+                  <div class="unit unit-horizontal unit-spacing-xxs">
+                    <div class="unit-left"><span class="icon mdi mdi-email"></span></div>
+                    <div class="unit-body"><a href="mailto:#">support@wingwarp.net</a></div>
+                  </div>
+                </li>
+              </ul>
+              <div class="group-md group-middle social-items"><a class="icon icon-md novi-icon mdi mdi-instagram" href="https://www.instagram.com/wingwarp/"></a></div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+            </div>
+            <div class="col-md-6 col-lg-3">
+            </div>
+          </div>
+          <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>WingWarp</span><span>.&nbsp;</span><span>All Rights Reserved</span>. <a href="http://college.wingwarp.tv/terms_of_use.html">Terms of Use</a>  <a href="http://college.wingwarp.tv/privacy_policy.html">Privace Policy</a></p>
+        </div>
+      </footer>
+    </div>
+    <!-- Global Mailform Output-->
+    <div class="snackbars" id="form-output-global"></div>
+    <!-- Javascript-->
+    <script src="{% static 'js/core.min.js' %}"></script>
+    <script src="{% static 'js/combo.min.js' %}"></script>
+    <!-- coded by Houdini-->
+  </body>
+</html>

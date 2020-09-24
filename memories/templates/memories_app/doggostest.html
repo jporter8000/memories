@@ -1,0 +1,122 @@
+
+<!--Informative box--><!DOCTYPE html>
+{% load static %}
+
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>Home</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Stylesheets-->
+    <!-- there is only one style sheet - it's all in a minified file  -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/fonts.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" id="main-styles-link">
+    <link rel="stylesheet" href="{% static 'css/customcss.css' %}"> 
+    <!-- <link rel="stylesheet" href="{% static 'css/combo.min.css' %}"> -->
+    <!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script> 
+    
+    
+    <!-- <script>
+      $(document).ready(function(){
+        $("#b11").click(function(){
+          $("#here11").load("/static/doggostest.html");
+        });
+      });
+    </script> -->
+    <script>
+      $(document).ready(function(){
+          $("#faqsection").load("/static/doggos.html #faq");
+          $("#ctasection").load("/static/doggos.html #ctasection");
+        });
+    </script>
+    
+    
+    
+  </head>
+  <body>
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="cssload-container">
+          <div class="cssload-speeding-wheel"></div>
+        </div>
+        <p>Loading...</p>
+      </div>
+    </div>
+    <div class="page">
+      <!-- Page Header-->
+      <header class="section page-header">
+      </header>
+      
+      
+      <!-- <div><button id="b11">button here</button></div> -->
+
+      <div id="faqsection">replace this</div>
+      <div id="ctasection">replace this too</div>
+
+     
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      <!-- Page Footer-->
+      <footer class="section footer-2" id="contact">
+        <div class="container">
+          <div class="row row-40">
+            <div class="col-md-6 col-lg-3"><a class="footer-logo"><img src="{% static 'images/WingWarpIcon-48x48.png' %}" alt="" width="48" height="48"/></a>
+              <p class="mw-230">WingWarp is a video and AI company creating new solutions for video. We are working on reinventing how you capture and share video.</p>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <h5 class="title">Contact Information</h5>
+              <ul class="contact-box">
+                <li>
+                  <div class="unit unit-horizontal unit-spacing-xxs">
+                    <div class="unit-left"><span class="icon mdi mdi-map-marker"></span></div>
+                    <div class="unit-body"><class="veil reveal-lg-inline">San Francisco, CA 94117 USA</a></div>
+                  </div>
+                </li>
+                <li>
+                  <div class="unit unit-horizontal unit-spacing-xxs">
+                    <div class="unit-left"><span class="icon mdi mdi-email"></span></div>
+                    <div class="unit-body"><a href="mailto:#">support@wingwarp.net</a></div>
+                  </div>
+                </li>
+              </ul>
+              <div class="group-md group-middle social-items"><a class="icon icon-md novi-icon mdi mdi-instagram" href="https://www.instagram.com/wingwarp/"></a></div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+            </div>
+            <div class="col-md-6 col-lg-3">
+            </div>
+          </div>
+          <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>WingWarp</span><span>.&nbsp;</span><span>All Rights Reserved</span>. <a href="http://college.wingwarp.tv/terms_of_use.html">Terms of Use</a>  <a href="http://college.wingwarp.tv/privacy_policy.html">Privace Policy</a></p>
+        </div>
+      </footer>
+    </div>
+    <!-- Global Mailform Output-->
+    <div class="snackbars" id="form-output-global"></div>
+    <!-- Javascript-->
+    <script src="{% static 'js/core.min.js' %}"></script>
+    <script src="{% static 'js/combo.min.js' %}"></script>
+    <!-- coded by Houdini-->
+  </body>
+</html>

@@ -21,10 +21,10 @@
     <!-- Stylesheets-->
     <!--  this is commented out because i combine everything into one minified file -->
     {% comment %} <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:100,300,300i,400,700,900"> {% endcomment %}
-    {% comment %} <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}"> {% endcomment %}
-    {% comment %} <link rel="stylesheet" href="{% static 'css/fonts.css' %}"> {% endcomment %}
-    {% comment %} <link rel="stylesheet" href="{% static 'css/style.css' %}" id="main-styles-link"> {% endcomment %}
-    {% comment %} <link rel="stylesheet" href="{% static 'css/customcss.css' %}"> {% endcomment %}
+    <!-- <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">  -->
+    <!-- <link rel="stylesheet" href="{% static 'css/fonts.css' %}"> -->
+    <!-- <link rel="stylesheet" href="{% static 'css/style.css' %}" id="main-styles-link"> -->
+    <!-- <link rel="stylesheet" href="{% static 'css/customcss.css' %}"> -->
     <link rel="stylesheet" href="{% static 'css/combo.min.css' %}">
     <!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
@@ -111,13 +111,14 @@
        <!-- Swiper-->
       <section class="section swiper-container swiper-slider swiper-slider-2" id="home" data-loop="false" data-autoplay="50000" data-simulate-touch="false" data-slide-effect="fade">
         <div class="swiper-wrapper text-lg-left text-center">
-          <div class="swiper-slide" data-slide-bg="{% static 'images/slider-1-1920x900.jpg' %}">
+          <div class="swiper-slide" data-slide-bg= "{% static mainbackgroundimage %} " >     <!-- this is the dog background image-->
+          <!-- <div class="swiper-slide" data-slide-bg="{% static 'images/slider-1-1920x900.jpg' %}">   this is the original background with the girl and hands-->
             <div class="swiper-slide-caption">
               <div class="container">
                 <div class="row justify-content-lg-center">
                   <div class="col-12">
                     {% comment %} <h1 data-caption-animate="fadeInUp" data-caption-delay="100"><span class="d-block font-weight-medium">Momenta Video Memories</span><span class="d-block font-weight-thin">Don't miss any more memories</span></h1><button class="button button-md button-primary self-center-md download-button-1" data-toggle="modal" data-target="#exampleModalCenter" data-caption-animate="fadeInUp" data-caption-delay="450">Download Free</button> {% endcomment %}
-                    <h1 data-caption-animate="fadeInUp" data-caption-delay="100"><span class="d-block font-weight-medium">Momenta Video Memories</span><span class="d-block font-weight-thin">Don't miss any more memories</span></h1>
+                    <h1 data-caption-animate="fadeInUp" data-caption-delay="100"><span class="d-block font-weight-medium">{{maintitle}}</span><span class="d-block font-weight-thin">{{subtitle}}</span></h1>
                     <div class="button-wrap-lg button-custom"><a class="button button-md button-primary button-long download-button-1" href="https://go.onelink.me/app/6e99b169?pid={{adsource}}&af_ad_type={{admedium}}&c={{adcampaign}}&af_ad={{adcontent}}">Download Free</a></div>
                     {% comment %} <div class="button-wrap-lg button-custom"><a class="button button-md button-primary button-long download-button-1" href="https://apps.apple.com/app/apple-store/id1450517652?pt=118492962&ct=momenta-memories-site&mt=8">Download Free</a></div> {% endcomment %}
                   </div>
@@ -125,11 +126,18 @@
               </div>
               <div class="container col-lg-7 col-md-12 container-jp1">
                 <div class="row justify-content-lg-start">
-                  <div class="iframe-container jp-test44">
-                  {% comment %} bingbing {% endcomment %}
-                    {% comment %} <iframe width="560" height="315" src="https://www.youtube.com/embed/IwnsR8EAbKg?modestbranding=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> {% endcomment %}
-                    {% comment %} <a class="instagram-item" data-lightgallery="item" href="{% static 'images/insta-gallery-1-original.jpg' %}"><img src="{% static 'images/insta-gallery-1-72x72.jpg' %}" alt="" width="72" height="72"/></a> {% endcomment %}
-                  </div>
+                  {% if sitetype == "doggos" %}
+                    <!-- <div><img src="/html/images/test.png" alt="Simply Easy Learning" width="200" height="80"></div> -->
+                    <div><img src= "{% static 'images/dog on page11.gif' %}" > </div>
+                    
+                  {% else %}
+                    <div class="iframe-container jp-test44">
+                      <!-- the jp-test44 container is filled in a js file - it's the first youtube video -->
+                      {% comment %} <iframe width="560" height="315" src="https://www.youtube.com/embed/IwnsR8EAbKg?modestbranding=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> {% endcomment %}
+                      {% comment %} <a class="instagram-item" data-lightgallery="item" href="{% static 'images/insta-gallery-1-original.jpg' %}"><img src="{% static 'images/insta-gallery-1-72x72.jpg' %}" alt="" width="72" height="72"/></a> {% endcomment %}
+                    </div>
+                  {% endif %}
+  
                 </div>
               </div>
 
