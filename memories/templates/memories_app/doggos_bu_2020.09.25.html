@@ -4,14 +4,6 @@
 
 <html class="wide wow-animation" lang="en">
   <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-P4GBDDZ');</script>
-    <!-- End Google Tag Manager  -->
-
     <title>Home</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -20,40 +12,17 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <!-- Stylesheets-->
     <!-- there is only one style sheet - it's all in a minified file  -->
-    <!-- <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}"> -->
-    <!-- <link rel="stylesheet" href="{% static 'css/fonts.css' %}"> -->
-    <!-- <link rel="stylesheet" href="{% static 'css/style.css' %}" id="main-styles-link"> -->
-    <!-- <link rel="stylesheet" href="{% static 'css/customcss.css' %}">  -->
+    <!-- <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/fonts.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" id="main-styles-link">
+    <link rel="stylesheet" href="{% static 'css/customcss.css' %}">  -->
     <link rel="stylesheet" href="{% static 'css/combo.min.css' %}">
     <!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
     <![endif]-->
-
-    <!-- Facebook Pixel Code -->
-    <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '846238449191322');
-      fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=846238449191322&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Facebook Pixel Code -->
   </head>
   <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P4GBDDZ"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
     <div class="preloader">
       <div class="preloader-body">
         <div class="cssload-container">
@@ -88,57 +57,60 @@
           </div>
         </div>
       </section>
-
-      <!-- What We Offer - V3 Section -->
-      <section class="section-lg jpv3section">
-        <div class="container jplowercontainer7">
-          <div class="jplowersubheading7">
+      <!-- What We Offer - V2 Section-->
+      <section class="section context-dark section-lg" id="about">
+        <div class="container">
+          <div class="block-lg text-center">
             <h3>The easiest way to create, edit, and share video highlights.</h3>
-            <p class="jpv3paragraph">Tap a single button to create a clip.</p>
+            <p class="jpsubtitle2">Tap a single button to create a clip.</p>
           </div>
-          <div class="row jpv3row">
-            <div class="col-lg-3 col-md-3 jpsidecols7">
-              <div class="col">
+          <div class="row row-flex no-gutters">
+            <div class="col-md-6 col-lg-3 jpcol55">
+              <div class="col-3 col-3jp1">
                 <div class="blurb-image jpcollower">
                   <div><img src="{% static 'images/camera-4-24.png' %}"></div> 
+                  <!-- <div class="icon linearicons-shield"><span class="colored-circle circle-top-left circle-yellow"></span></div> -->
                   <h6 class="title jpsmalltitle">Easily capture video highlights</h6>
                   <p class="exeption">Just tap the highlight button and Momenta will create a clip out of the last 10 seconds of video.</p>
                 </div>
-                <div><hr class="jphline"></div>
+                <div><hr class=jphline></div>
                 <div class="blurb-image jpcollower">
                   <div><img src="{% static 'images/pencil-24.png' %}"></div> 
+                  <!-- <div class="icon linearicons-group-work"><span class="colored-circle circle-right-bottom circle-orange"></span></div> -->
                   <h6 class="title jpsmalltitle">Quickly edit your clips</h6>
                   <p class="exeption">No need for fancy editing software. Edit your clips right on your phone with just a few taps.</p>
                 </div>
-                <div><hr class="jphline"></div>
+                <div><hr class=jphline></div>
                 <div class="blurb-image jpcollower">
                   <div><img src="{% static 'images/group-24.png' %}"></div> 
+                  <!-- <div class="icon linearicons-license2"><span class="colored-circle circle-top-right circle-pink"></span></div> -->
                   <h6 class="title jpsmalltitle">Create teams with family and friends</h6>
                   <p class="exeption">When you create a highlight, your team will see it. That's it!</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 jpmaincol7">
-              <div class="col">
-                  <img src="{% static 'images/dog-on-page11.gif' %}" class="jpdoggif7">
-              </div>
+            <div class="col-md-6 col-lg-6 col-xl-5 jpcol56">
+                <img src="{% static 'images/dog-on-page11.gif' %}" class="jpbigimage">
             </div>
-            <div class="col-lg-3 col-md-3 jpsidecols7" >
-              <div class="col">
+            <div class="col-md-6 col-lg-3 jpcol55">
+              <div class="col-3 col-3jp3">
                 <div class="blurb-image jpcollower">
                   <div><img src="{% static 'images/instagram-24.png' %}"></div> 
+                  <!-- <div class="icon linearicons-baby2"><span class="colored-circle circle-right-bottom circle-orange"></span></div> -->
                   <h6 class="title jpsmalltitle">Quickly post highlights to social media</h6>
                   <p class="exeption">Your highlights are perfect for social media. Just tap the share button.</p>
                 </div>
-                <div><hr class="jphline"></div>
+                <div><hr class=jphline></div>
                 <div class="blurb-image jpcollower">
                   <div><img src="{% static 'images/filled-filter-24.png' %}"></div> 
+                  <!-- <div class="icon linearicons-palette"><span class="colored-circle circle-top-left circle-pink"></span></div> -->
                   <h6 class="title jpsmalltitle">Super wide angle video capture mode</h6>
                   <p class="exeption">Add a second phone and we'll stitch the two phones together to capture the action no matter where it roams. (coming soon)</p>
                 </div>
-                <div><hr class="jphline"></div>
-                <div class="blurb-image jpcollower">
+                <div><hr class=jphline></div>
+                <div class="blurb-image jpcollower jpsmalltitle">
                   <div><img src="{% static 'images/cloud-3-24.png' %}"></div> 
+                  <!-- <div class="icon linearicons-sun"><span class="colored-circle circle-bottom-left circle-yellow"></span></div> -->
                   <h6 class="title jpsmalltitle">Stored in the cloud</h6>
                   <p class="exeption">Your clips will be on your phone and in the cloud.</p>
                 </div>
@@ -147,7 +119,6 @@
           </div>
         </div>
       </section>
-
       <!-- Call to action-->
       <section class="section section-xs accent-violet-bg jpctabackground1">
         <div class="container">

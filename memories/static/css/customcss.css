@@ -34,7 +34,7 @@
 }
 .jphline {
 	width: 50%; 
-	align-self: left;
+	/* align-self: left; */
 	margin: 42px 0px 42px 0px; 
 }
  .jpsmalltitle {
@@ -49,17 +49,6 @@
 }
 
 @media (min-width: 576px) {
-
-}
-@media (min-width: 768px) {
- .jpbgroundcolortopsection {
-	 background-color: rgba(255, 255, 255, 0.6)
- }
-}
-@media (min-width: 992px) {
- .jpbgroundcolortopsection {
-	 background-color: rgba(255, 255, 255, 0.6)
- }
 
 }
 @media (min-width: 1200px) {
@@ -214,6 +203,33 @@
 	float: left; */
 	padding-top: 105px;
 }
+.jpv3section {
+	text-align: center;
+}
+.jpv3paragraph {
+	font-size: 20px;
+}
+.jpv3row {
+	/* display: flex;
+	flex-wrap: wrap */
+}
+.jpdoggif7 {
+	width: 100%;
+}
+.jpsidecols7 {
+	padding-top: 105px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.jpmaincol7 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.jplowersubheading7 {
+	margin-bottom: 52px;
+}
+
+
 @media (min-width: 768px) {
 	.swiper-slider-2 .swiper-slide {
 		min-height: 300px;
@@ -254,45 +270,53 @@
 	}
 }
 
-@media (max-width: 576px) {
-	.jpinfo3 {
-		width: 40%;
-	}
-	.swiper-slider-2 .swiper-slide {
-		background-color: rgba(255, 255, 255, 0)
-	}
-
+@media (min-width: 1600px) {
 }
-@media (max-width: 768px) {
-	.swiper-slider-2 .swiper-slide {
-		background-color: rgba(255, 255, 255, 0)
-	}
-	.jpcenterit55 {
-		text-align: center;
-	}
+@media (max-width: 1200px) {
 }
 @media (max-width: 992px) {
 	.swiper-slider-2 .swiper-slide {
 		background-color: rgba(255, 255, 255, 0)
 	}
-	.jpcol55 {
-		max-width: 50%;
-		flex: 0 0 50%;
+	.jpsidecols7 {
+		padding-top: 0px;
+		/* padding-right: 10px;
+		padding-left: 10px; */
 	}
-	.jpcol56 {
-		flex: 0 0 100%;
+	.jplowercontainer7 {
+		max-width: 940px;
+	}
+	.jpcollower {
+		text-align: left; 
+	}
+	.jpdoggif7 {
 		width: 100%;
-		margin-top: 50px;
+		margin-bottom: 45px;
+	}
+	.jphline {
+		width: 12.5%; 
+		align-self: center; 
+		margin: 25px 0px 25px 0px; 
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.swiper-slider-2 .swiper-slide:after {
+		background-color: rgba(255, 255, 255, 0)
 	}
 }
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
+	.jpcollower {
+		text-align: center; 
+	}
+	.jpdoggif7 {
+		width: 100%;
+		margin-top: 45px;
+		margin-bottom: 45px;
+	}
+}
+@media (max-width: 576px) {
+	.jpinfo3 {
+		width: 40%;
+	}
 
-	.swiper-slider-2 .swiper-slide {
-		background-color: rgba(255, 255, 255, 0)
-	}
-}
-@media (min-width: 1600px) {
-	.swiper-slider-2 .swiper-slide {
-		background-color: rgba(255, 255, 255, 0)
-	}
 }
